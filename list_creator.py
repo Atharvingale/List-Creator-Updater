@@ -41,7 +41,7 @@ def add_data():
     return data
 
 while True:
-    print("\n\n\n\n||| WELCOME TO LIST CREATOR / List Updater |||\n")    
+    print("||| WELCOME TO LIST CREATOR / List Updater |||\n")    
     print("1. New List")
     print("2. Add data to the list")
     print("3. View the list")
