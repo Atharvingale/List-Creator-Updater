@@ -62,7 +62,11 @@ while True:
         data = view_data()
         print(tabulate(data, headers="firstrow", tablefmt="grid"))
     elif(a=="4"):
+        command = "cls" if os.name == "nt" else "clear"
+        os.system(command)
         break
     else:
-        print("ERROR INVALID OPTION TRY AGAIN")
+        command = "cls" if os.name == "nt" else "clear"
+        os.system(command)
+        print("                           !!! ERROR INVALID OPTION TRY AGAIN !!!\n\n")
 
