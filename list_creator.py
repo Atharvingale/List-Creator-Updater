@@ -1,5 +1,7 @@
 from tabulate import tabulate
-
+import os
+command = "cls" if os.name == "nt" else "clear"
+os.system(command)
 
 def make_list():
     data = []
