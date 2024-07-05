@@ -12,7 +12,7 @@ def make_list():
         if row.lower() == "done":
             break
         data.append(row.split(",")) 
-    # Open the file in append mode and write each row as a formatted string
+    
     with open(filename, 'a') as file:
         for row in data:
             file.write(','.join(row) + '\n')   
@@ -34,7 +34,7 @@ def add_data():
        if row.lower() == "done":
            break
        data.append(row.split(",")) 
-    # Open the file in append mode and write each row as a formatted string
+   
     with open(filename, 'a') as file:
         for row in data:
             file.write(','.join(row) + '\n')   
