@@ -55,7 +55,7 @@ This Python script allows users to create, view, and update lists stored in CSV 
     ```
 ## Authors
 
-- [Atharva Inagle](https://github.com/Atharvingale)
+- [Atharva Ingale](https://github.com/Atharvingale)
 
 
 The data will be displayed in a tabular format.
