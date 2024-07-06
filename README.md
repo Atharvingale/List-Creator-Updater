@@ -53,6 +53,11 @@ This Python script allows users to create, view, and update lists stored in CSV 
     Enter the operation number to perform:- 3
     Enter the file name: my_list.csv
     ```
+- Authors:
+- ```javascript
+    owner:Atharvingale 
+    ```
+  owner:Atharvingale 
 
 The data will be displayed in a tabular format.
 
